@@ -1,0 +1,36 @@
+.col-even{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #ccc;
+    height: 50px;
+    align-items: center;
+    padding: 0 12px;
+}
+.col-odd{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0 12px;
+}
+.processing{
+    padding: 5px 5px 5px 10px;
+    margin: 0;
+    margin-left: -14px;
+    background: #99de9b;
+    width: 23%;
+    margin-top:16px;
+
+}
+.pending{
+    padding: 5px 5px 5px 10px;
+    margin: 0;
+    margin-left: -14px;
+    background: #f5e30c;
+    width: 23%;
+    margin-top:16px;
+}
+.col__checkbox{
+    width: 5%;
+}
